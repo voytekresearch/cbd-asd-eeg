@@ -10,9 +10,3 @@ Loads processed EEG (.fif), computes power spectral density and apply specparam 
 
 03_EEG_Extract_Features: 
 Loads specparam (FOOOF) outputs (.json), calculates periodic and aperiodic signal features.
-
-04_EEG_Behavior_Models: 
-Loads calculated behaviora assessments and signal features (.csv) and runs linear mixed models relating 7-COOH-CBD metabolite levels in blood to behavioral assessment outcomes and EEG signal features.
-
-05_EEG_Mediation_Analysis: 
-Loads calculated behaviora assessments and signal features (.csv) and runs mediation analyses relating 7-COOH-CBD metabolite levels in blood to behavioral assessment outcomes and EEG signal features.
